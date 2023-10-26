@@ -1,0 +1,28 @@
+{
+    "short_name": "PWA",
+    "name": "Test PWA",
+    "icons": [
+        {
+            "src": "./icone-512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        },
+        {
+            "src": "./icone.png",
+            "type": "image/png",
+            "sizes": "192x192",
+            "purpose": "any maskable"
+        }
+    ],
+    "prefer_related_applications": true,
+    "related_applications": [
+        {
+            "platform" : "play",
+            "id": "com.google.samples.apps.iosched"
+        }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#ffffff"
+}
